@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /*border: solid;*/
+    height: 70px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    background-color: rgb(254, 183, 69);
+    
+}
+#logo{
+    /*border: solid;*/
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+#menu {
+    /*border: solid;*/
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+
+}
+#banner{
+    /* border: solid; */
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://store.supercell.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-desktop.a1484fc3.png&w=1920&q=75);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 50px;
+
+}
+#productos{
+    /*border: solid;*/
+    height: 50vh;
+    /*background-color: rgb(213, 213, 213);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    background-color: rgb(73, 156, 234);
+
+}
+#productos2{
+    /*border: solid;*/
+    height: 40vh;
+    /*background-color: rgb(213, 213, 213);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    background-color: rgb(73, 156, 234);
+}
+.items{
+    /*border: solid;*/
+    height: 300px;
+    width:  300px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    background-image: url(https://i.pinimg.com/originals/a2/fb/23/a2fb230ac13e58c9232bc22892220593.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10PX;
+    display: flex; /* Centra elementos verticalmente */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+.items button {
+    background-color: rgb(248, 155, 48); 
+    color: white; 
+    border: none; 
+    border-radius: 30px; 
+    padding: 8px 16px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+    font-family: "Poppins", sans-serif;
+
+}
+#cart-counter {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(253, 175, 7); 
+    border: none; 
+    border-radius: 15px; 
+    padding: 8px 12px; 
+    display: flex;
+    text-align: center; 
+    font-weight: bold; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items .nombre-producto {
+    color: rgb(245, 245, 245); /* Cambia el color del texto del nombre del producto a azul */
+    font-weight: bold;
+}
+.items .precio-producto {
+    color:rgb(105, 105, 105); /* Cambia el color del texto del precio del producto a verde */
+}
+.abajo{
+    /*border: solid red;*/
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(235, 230, 224);
+}
+
+#titulo{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(73, 156, 234);
+    background-color: rgb(238, 235, 230);
+    text-shadow: 1px 1px 1px black;
+}
+#sign{
+    /*border: solid;*/
+    width: 100px;
+    position: absolute;
+    right: 50px;
+}
+input{
+    background-color: black;
+    color: white;
+    position: center center;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 10px;
+    border-bottom: 0;
+}
+p{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a{
+    color: rgb(73, 156, 234);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}

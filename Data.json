@@ -1,0 +1,40 @@
+{"familiadeproductos":
+    [
+        {
+            "id":1,
+            "name": "Pase de diamante",
+            "price": 62910,
+            "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F9e3361cd321a98bd4b51dc8214b43c4f.png&w=640&q=100"
+        },
+        {
+            "id":2,
+            "name": "Pase de oro",
+            "price": 32410,
+            "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F8d7efe3d206fff88c803ed23c2939a51.png&w=640&q=100"
+        },
+        {
+            "id":3,
+            "name": "Monton de gemas",
+            "price": 599900,
+            "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F62e15921137b3d9d677f4b6b0bd839d2.png&w=640&q=100"
+        },
+        {
+            "id":4,
+            "name": "Vagon de gemas",
+            "price": 299900,
+            "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2Fba69c801958b811e049c0d9157965b8e.png&w=640&q=100"
+        },
+        {
+            "id":5,
+            "name": "Barril de gemas",
+            "price": 114900,
+            "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F2a9094abf4c67b13c9c5230667a5bb78.png&w=640&q=100"
+        },
+        {
+            "id":6,
+            "name": "Cubo de gemas",
+            "price": 59900,
+            "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F94668008bdea686126844740e8fb0928.png&w=640&q=100"
+        }
+    ]
+}
